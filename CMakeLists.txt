@@ -8,7 +8,8 @@ add_executable(main main.cpp)
 add_executable(LeetCode3-Solution-01 "LeetCode/ProblemSet/Volume (1-99)/LeetCode3/LeetCode3-Solution-01.cpp")
 add_executable(LeetCode643-Solution-01 "LeetCode/ProblemSet/Volume (600-699)/LeetCode643/LeetCode643-Solution-01.cpp")
 add_executable(LeetCode1052-Solution-01 "LeetCode/ProblemSet/Volume (1000-1099)/LeetCode1052/LeetCode1052-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3000-3099)/LeetCode3090/LeetCode3090-Solution-01.cpp")
+        "LeetCode/ProblemSet/Volume (3000-3099)/LeetCode3090/LeetCode3090-Solution-01.cpp"
+        "LeetCode/ProblemSet/Volume (1400-1499)/LeetCode1493/LeetCode1493-Solution-01.cpp")
 add_executable(LeetCode1343-Solution-01 "LeetCode/ProblemSet/Volume (1300-1399)/LeetCode1343/LeetCode1343-Solution-01.cpp")
 add_executable(LeetCode1423-Solution-01 "LeetCode/ProblemSet/Volume (1400-1499)/LeetCode1423/LeetCode1423-Solution-01.cpp")
 add_executable(LeetCode1423-Solution-02 "LeetCode/ProblemSet/Volume (1400-1499)/LeetCode1423/LeetCode1423-Solution-02.cpp")
