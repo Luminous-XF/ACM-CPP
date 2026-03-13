@@ -4,128 +4,20 @@ project(ACM)
 set(CMAKE_CXX_STANDARD 26)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(
-        ACM main.cpp
-        "LeetCode/ProblemSet/Volume (2300-2399)/LeetCode2327/LeetCode2327-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1700-1799)/LeetCode1733/LeetCode1733-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1-99)/LeetCode49/LeetCode49-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (2700-2799)/LeetCode2785/LeetCode2785-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (100-199)/LeetCode128/LeetCode128-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3500-3599)/LeetCode3541/LeetCode3541-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (900-999)/LeetCode966/LeetCode966-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1900-1999)/LeetCode1935/LeetCode1935-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (2100-2199)/LeetCode2197/LeetCode2197-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (2300-2399)/LeetCode2349/LeetCode2349-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3400-3499)/LeetCode3408/LeetCode3408-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3400-3499)/LeetCode3484/LeetCode3483-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1-99)/LeetCode11/LeetCode11-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (2300-2399)/LeetCode2300/LeetCode2300-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3400-3499)/LeetCode3494/LeetCode3494-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1400-1499)/LeetCode1488/LeetCode1488-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3100-3199)/LeetCode3147/LeetCode3147-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3100-3199)/LeetCode3186/LeetCode3186-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3100-3199)/LeetCode3186/LeetCode3186-Solution-02.cpp"
-        "LeetCode/ProblemSet/Volume (2200-2299)/LeetCode2273/LeetCode2273-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3300-3399)/LeetCode3350/LeetCode3350-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (2500-2599)/LeetCode2598/LeetCode2598-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3300-3399)/LeetCode3397/LeetCode3397-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1600-1699)/LeetCode1625/LeetCode1625-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (2000-2099)/LeetCode2011/LeetCode2011-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3300-3399)/LeetCode3346/LeetCode3346-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3400-3499)/LeetCode3461/LeetCode3461-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (2100-2199)/LeetCode2125/LeetCode2125-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3300-3399)/LeetCode3354/LeetCode3354-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3300-3399)/LeetCode3370/LeetCode3370-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1500-1599)/LeetCode1526/LeetCode1526-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3200-3299)/LeetCode3289/LeetCode3289-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3200-3299)/LeetCode3217/LeetCode3217-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1500-1599)/LeetCode1578/LeetCode1578-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (2200-2299)/LeetCode2257/LeetCode2257-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3300-3399)/LeetCode3318/LeetCode3318-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3600-3699)/LeetCode3607/LeetCode3607-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (2100-2199)/LeetCode2169/LeetCode2169-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (2100-2199)/LeetCode2169/LeetCode2169-Solution-02.cpp"
-        "LeetCode/ProblemSet/Volume (2500-2599)/LeetCode2528/LeetCode2528-Solution-01.cpp"
-        LeetCode/Contest/WeeklyContest/Contest-475/Q1.cpp
-        LeetCode/Contest/WeeklyContest/Contest-475/Q2.cpp
-        LeetCode/Contest/WeeklyContest/Contest-475/Q3.cpp
-        LeetCode/Contest/WeeklyContest/Contest-475/Q4.cpp
-        "LeetCode/ProblemSet/Volume (3500-3599)/LeetCode3542/LeetCode3542-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3200-3299)/LeetCode3228/LeetCode3228-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (2500-2599)/LeetCode2536/LeetCode2536-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1-99)/LeetCode28/LeetCode28-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (200-299)/LeetCode268/LeetCode268-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3200-3299)/LeetCode3234/LeetCode3234-Solution-01.cpp"
-        LeetCode/Contest/WeeklyContest/Contest-476/Q1.cpp
-        LeetCode/Contest/WeeklyContest/Contest-476/Q2.cpp
-        LeetCode/Contest/WeeklyContest/Contest-476/Q3.cpp
-        LeetCode/Contest/WeeklyContest/Contest-476/Q4.cpp
-        "LeetCode/ProblemSet/Volume (1500-1599)/LeetCode1513/LeetCode1513-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1400-1499)/LeetCode1437/LeetCode1437-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (700-799)/LeetCode717/LeetCode717-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (2100-2199)/LeetCode2124/LeetCode2124-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (2100-2199)/LeetCode2154/LeetCode2154-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (700-799)/LeetCode757/LeetCode757-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1-99)/LeetCode15/LeetCode15-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1-99)/LeetCode15/LeetCode15-Solution-02.cpp"
-        "LeetCode/ProblemSet/Volume (1900-1999)/LeetCode1930/LeetCode1930-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3100-3199)/LeetCode3190/LeetCode3190-Solution-01.cpp"
-        LeetCode/Contest/BiWeeklyContest/Contest-170/Q1.cpp
-        LeetCode/Contest/BiWeeklyContest/Contest-170/Q2.cpp
-        LeetCode/Contest/BiWeeklyContest/Contest-170/Q3.cpp
-        "LeetCode/ProblemSet/Volume (1200-1299)/LeetCode1262/LeetCode1262-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1000-1099)/LeetCode1018/LeetCode1018-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (2400-2499)/LeetCode2435/LeetCode2435-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3300-3399)/LeetCode3381/LeetCode3381-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (2800-2899)/LeetCode2872/LeetCode2871-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3500-3599)/LeetCode3512/LeetCode3512-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1500-1599)/LeetCode1590/LeetCode1590-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3600-3699)/LeetCode3623/LeetCode3623-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3600-3699)/LeetCode3625/LeetCode3625-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (2200-2299)/LeetCode2211/LeetCode2211-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3400-3499)/LeetCode3422/LeetCode3422-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (2200-2299)/LeetCode2211/LeetCode2211-Solution-02.cpp"
-        "LeetCode/ProblemSet/Volume (3500-3599)/LeetCode3578/LeetCode3578-Solution-01.cpp"
-        LeetCode/Contest/WeeklyContest/Contest-479/Q1.cpp
-        LeetCode/Contest/WeeklyContest/Contest-479/Q2.cpp
-        LeetCode/Contest/WeeklyContest/Contest-479/Q3.cpp
-        "LeetCode/ProblemSet/Volume (1500-1599)/LeetCode1523/LeetCode1523.cpp"
-        "LeetCode/ProblemSet/Volume (1900-1999)/LeetCode1925/LeetCode1925-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1900-1999)/LeetCode1925/LeetCode1925-Solution-02.cpp"
-        "LeetCode/ProblemSet/Volume (3500-3599)/LeetCode3583/LeetCode3583-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3500-3599)/LeetCode3583/LeetCode3583-Solution-02.cpp"
-        "LeetCode/ProblemSet/Volume (3500-3599)/LeetCode3531/LeetCode3531-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3500-3599)/LeetCode3531/LeetCode3531-Solution-02.cpp"
-        "LeetCode/ProblemSet/Volume (900-999)/LeetCode944/LeetCode944-Solution.cpp"
-        "LeetCode/ProblemSet/Volume (900-999)/LeetCode955/LeetCode955-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3000-3099)/LeetCode3074/LeetCode3074-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3000-3099)/LeetCode3075/LeetCode3075-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1300-1399)/LeetCode1351/LeetCode1351-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1200-1299)/LeetCode1292/LeetCode1292-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1400-1499)/LeetCode1461/LeetCode1461-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1000-1099)/LeetCode1022/LeetCode1022-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1000-1099)/LeetCode1022/LeetCode1022-Solution-02.cpp"
-        "LeetCode/ProblemSet/Volume (1300-1399)/LeetCode1356/LeetCode1356-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1600-1699)/LeetCode1689/LeetCode1689-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1500-1599)/LeetCode1536/LeetCode1536-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1500-1599)/LeetCode1545/LeetCode1545-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1500-1599)/LeetCode1582/LeetCode1582-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1700-1799)/LeetCode1758/LeetCode1758-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1700-1799)/LeetCode1784/LeetCode1784-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1700-1799)/LeetCode1784/LeetCode1784-Solution-02.cpp"
-        "LeetCode/ProblemSet/Volume (1800-1899)/LeetCode1888/LeetCode1888-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1900-1999)/LeetCode1980/LeetCode1980-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1900-1999)/LeetCode1980/LeetCode1980-Solution-02.cpp"
-        "LeetCode/ProblemSet/Volume (1400-1499)/LeetCode1456/LeetCode1456-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (600-699)/LeetCode643/LeetCode643-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1300-1399)/LeetCode1343/LeetCode1343-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (2000-2099)/LeetCode2090/LeetCode2090-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (2300-2399)/LeetCode2379/LeetCode2379-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (2800-2899)/LeetCode2841/LeetCode2841-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (2400-2499)/LeetCode2461/LeetCode2461-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1400-1499)/LeetCode1423/LeetCode1423-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1400-1499)/LeetCode1423/LeetCode1423-Soluton-02.cpp"
-        "LeetCode/ProblemSet/Volume (3600-3699)/LeetCode3679/LeetCode3679-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (1000-1099)/LeetCode1052/LeetCode1052-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (3400-3499)/LeetCode3439/LeetCode3439-Solution-01.cpp"
-)
+add_executable(main main.cpp)
+add_executable(LeetCode3-Solution-01 "LeetCode/ProblemSet/Volume (1-99)/LeetCode3/LeetCode3-Solution-01.cpp")
+add_executable(LeetCode643-Solution-01 "LeetCode/ProblemSet/Volume (600-699)/LeetCode643/LeetCode643-Solution-01.cpp")
+add_executable(LeetCode1052-Solution-01 "LeetCode/ProblemSet/Volume (1000-1099)/LeetCode1052/LeetCode1052-Solution-01.cpp")
+add_executable(LeetCode1343-Solution-01 "LeetCode/ProblemSet/Volume (1300-1399)/LeetCode1343/LeetCode1343-Solution-01.cpp")
+add_executable(LeetCode1423-Solution-01 "LeetCode/ProblemSet/Volume (1400-1499)/LeetCode1423/LeetCode1423-Solution-01.cpp")
+add_executable(LeetCode1423-Solution-02 "LeetCode/ProblemSet/Volume (1400-1499)/LeetCode1423/LeetCode1423-Solution-02.cpp")
+add_executable(LeetCode1456-Solution-01 "LeetCode/ProblemSet/Volume (1400-1499)/LeetCode1456/LeetCode1456-Solution-01.cpp")
+add_executable(LeetCode1784-Solution-01 "LeetCode/ProblemSet/Volume (1700-1799)/LeetCode1784/LeetCode1784-Solution-01.cpp")
+add_executable(LeetCode1784-Solution-02 "LeetCode/ProblemSet/Volume (1700-1799)/LeetCode1784/LeetCode1784-Solution-02.cpp")
+add_executable(LeetCode1888-Solution-01 "LeetCode/ProblemSet/Volume (1800-1899)/LeetCode1888/LeetCode1888-Solution-01.cpp")
+add_executable(LeetCode2090-Solution-01 "LeetCode/ProblemSet/Volume (2000-2099)/LeetCode2090/LeetCode2090-Solution-01.cpp")
+add_executable(LeetCode2379-Solution-01 "LeetCode/ProblemSet/Volume (2300-2399)/LeetCode2379/LeetCode2379-Solution-01.cpp")
+add_executable(LeetCode2461-Solution-01 "LeetCode/ProblemSet/Volume (2400-2499)/LeetCode2461/LeetCode2461-Solution-01.cpp")
+add_executable(LeetCode2841-Solution-01 "LeetCode/ProblemSet/Volume (2800-2899)/LeetCode2841/LeetCode2841-Solution-01.cpp")
+add_executable(LeetCode3439-Solution-01 "LeetCode/ProblemSet/Volume (3400-3499)/LeetCode3439/LeetCode3439-Solution-01.cpp")
+add_executable(LeetCode3679-Solution-01 "LeetCode/ProblemSet/Volume (3600-3699)/LeetCode3679/LeetCode3679-Solution-01.cpp")

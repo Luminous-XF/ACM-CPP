@@ -7,21 +7,24 @@
 
 #include <bits/stdc++.h>
 
-#define endl "\n"
+class Solution {
+public:
+    int lengthOfLongestSubstring(std::string s) {
+        const int n = (int) s.length();
 
+        std::unordered_set<char> set;
+        int ans = 0;
+        for (int i = 0, j = 0; i < n; i++) {
+            while (set.contains(s[i])) {
+                set.erase(s[j]);
+                j++;
+            }
 
-void solve() {
+            set.insert(s[i]);
 
-}
+            ans = std::max(ans, i - j + 1);
+        }
 
-int main() {
-    std::ios::sync_with_stdio(false);
-
-    int T = 1;
-    //std::cin >> T;
-    while (T-- > 0) {
-        solve();
+        return ans;
     }
-
-    return 0;
-}
+};
