@@ -30,8 +30,6 @@ public:
                 j++;
             }
 
-            std::cout << k << " " << j << " " << i << std::endl;
-
             int len = i - j + 1;
             if (ans.empty() || len < ans.length()) {
                 ans = s.substr(j, len);
