@@ -32,5 +32,6 @@ add_executable(ACM
         "LeetCode/ProblemSet/Volume (2900-2999)/LeetCode2958/LeetCode2958-Solution-01.cpp"
         "LeetCode/ProblemSet/Volume (2000-2099)/LeetCode2024/LeetCode2024-Solution-01.cpp"
         "LeetCode/ProblemSet/Volume (1000-1099)/LeetCode1004/LeetCode1004-Solution-01.cpp"
-        "LeetCode/ProblemSet/Volume (2700-2799)/LeetCode2730/LeetCode2730-Solution-01.cpp")
+        "LeetCode/ProblemSet/Volume (2700-2799)/LeetCode2730/LeetCode2730-Solution-01.cpp"
+        "LeetCode/ProblemSet/Volume (2700-2799)/LeetCode2779/LeetCode2779-Solution-01.cpp")
 
